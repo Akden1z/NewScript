@@ -1,0 +1,199 @@
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Made By Aiah#7856 / Nowartus#1414";
+	Text = "Plis Join!"; --(oWo ! [ღ] 𝔸𝕜𝕕𝕖𝕟𝕚𝕫#4752)
+	Duration = 105;
+})
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local label = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local VGHUB = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Venyx = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local EvelynHub = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Premiumscript = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local label_2 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.658195674, 0, 0.224652082, 0)
+main.Size = UDim2.new(0, 135, 0, 277)
+main.Active = true
+main.Draggable = true
+
+UICorner.Parent = main
+
+label.Name = "label"
+label.Parent = ScreenGui
+label.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+label.BorderColor3 = Color3.fromRGB(0, 0, 0)
+label.Position = UDim2.new(0.659466326, 0, 0.224652082, 0)
+label.Size = UDim2.new(0, 135, 0, 22)
+label.Font = Enum.Font.SciFi
+label.Text = "E v e l y n H u b"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 14.000
+
+UICorner_2.Parent = label
+
+VGHUB.Name = "VG.HUB"
+VGHUB.Parent = ScreenGui
+VGHUB.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+VGHUB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VGHUB.Position = UDim2.new(0.668360889, 0, 0.288270414, 0)
+VGHUB.Size = UDim2.new(0, 120, 0, 27)
+VGHUB.Font = Enum.Font.LuckiestGuy
+VGHUB.Text = "VG.Hub"
+VGHUB.TextColor3 = Color3.fromRGB(0, 229, 0)
+VGHUB.TextSize = 14.000
+VGHUB.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))() 
+end)
+
+UICorner_3.Parent = VGHUB
+
+Venyx.Name = "Venyx"
+Venyx.Parent = ScreenGui
+Venyx.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Venyx.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Venyx.Position = UDim2.new(0.668360889, 0, 0.361829072, 0)
+Venyx.Size = UDim2.new(0, 120, 0, 27)
+Venyx.Font = Enum.Font.LuckiestGuy
+Venyx.Text = "Venyx.hub"
+Venyx.TextColor3 = Color3.fromRGB(0, 229, 0)
+Venyx.TextSize = 14.000
+Venyx.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
+end)
+
+UICorner_4.Parent = Venyx
+
+EvelynHub.Name = "Evelyn Hub"
+EvelynHub.Parent = ScreenGui
+EvelynHub.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+EvelynHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EvelynHub.Position = UDim2.new(0.668360889, 0, 0.439363837, 0)
+EvelynHub.Size = UDim2.new(0, 120, 0, 27)
+EvelynHub.Font = Enum.Font.LuckiestGuy
+EvelynHub.Text = "E v e l y n h u b"
+EvelynHub.TextColor3 = Color3.fromRGB(0, 229, 0)
+EvelynHub.TextSize = 14.000
+EvelynHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Akden1z/BuildAdassag/main/RutoHub'))()
+end)
+
+UICorner_5.Parent = EvelynHub
+
+Premiumscript.Name = "Premium script"
+Premiumscript.Parent = ScreenGui
+Premiumscript.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Premiumscript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Premiumscript.Position = UDim2.new(0.668360889, 0, 0.518886745, 0)
+Premiumscript.Size = UDim2.new(0, 120, 0, 27)
+Premiumscript.Font = Enum.Font.LuckiestGuy
+Premiumscript.Text = "premium script"
+Premiumscript.TextColor3 = Color3.fromRGB(0, 229, 0)
+Premiumscript.TextSize = 14.000
+Premiumscript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+UICorner_6.Parent = Premiumscript
+
+label_2.Name = "label"
+label_2.Parent = ScreenGui
+label_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+label_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+label_2.Position = UDim2.new(0.658195674, 0, 0.731610298, 0)
+label_2.Size = UDim2.new(0, 135, 0, 22)
+label_2.Font = Enum.Font.SciFi
+label_2.Text = "CR: Aiah#7856"
+label_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+label_2.TextSize = 14.000
+
+UICorner_7.Parent = label_2
+
+-- Scripts:
+
+local function ULOYH_fake_script() -- label.LocalScript 
+	local script = Instance.new('LocalScript', label)
+
+	-- Colored-background
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			script.Parent.BackgroundColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(ULOYH_fake_script)()
+local function YUOVEOU_fake_script() -- VGHUB.LocalScript 
+	local script = Instance.new('LocalScript', VGHUB)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			script.Parent.BackgroundColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(YUOVEOU_fake_script)()
+local function JYSTKFR_fake_script() -- Venyx.LocalScript 
+	local script = Instance.new('LocalScript', Venyx)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			script.Parent.BackgroundColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(JYSTKFR_fake_script)()
+local function LRIOLW_fake_script() -- EvelynHub.LocalScript 
+	local script = Instance.new('LocalScript', EvelynHub)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			script.Parent.BackgroundColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(LRIOLW_fake_script)()
+local function NNCCQR_fake_script() -- Premiumscript.LocalScript 
+	local script = Instance.new('LocalScript', Premiumscript)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			script.Parent.BackgroundColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(NNCCQR_fake_script)()
+local function IYHH_fake_script() -- label_2.LocalScript 
+	local script = Instance.new('LocalScript', label_2)
+
+	-- Colored-background
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			script.Parent.BackgroundColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(IYHH_fake_script)() 
